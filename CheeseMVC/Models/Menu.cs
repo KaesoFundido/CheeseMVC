@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CheeseMVC.Models
 {
-    public class Cheese
+    public class Menu
     {
         public string Name { get; set; }
-        public string Description { get; set; }
         public int ID { get; set; }
-        public CheeseCategory Category { get; set; }
-        public int CategoryID { get; set; }
-        public int Rating { get; set; }
 
         public IList<CheeseMenu> CheeseMenus { get; set; }
-    }
 
+        public Menu()
+        {
+
+        }
+    }
 }

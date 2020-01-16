@@ -11,14 +11,14 @@ namespace CheeseMVC.ViewModels
         {
         }
 
-        public AddEditCheeseViewModel(Cheese ch)
-        {
-            // Use Cheese object to initialize the ViewModel properties
-            CheeseId = ch.CheeseId;
-            Name = ch.Name;
-            Description = ch.Description;
-            Type = ch.Type;
-            Rating = ch.Rating;
-        }
+        //public AddEditCheeseViewModel(Cheese ch)
+        //{
+        //    // Use Cheese object to initialize the ViewModel properties
+        //    CheeseId = ch.ID;
+        //    Name = ch.Name;
+        //    Description = ch.Description;
+        //    Category = ch.Category;
+        //    Rating = ch.Rating;
+        //}
     }
 }
