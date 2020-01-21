@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 
 namespace CheeseMVC.Models
@@ -13,6 +14,11 @@ namespace CheeseMVC.Models
         public int Rating { get; set; }
 
         public IList<CheeseMenu> CheeseMenus { get; set; }
+
+        internal static void Add(SelectListItem selectListItem)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
